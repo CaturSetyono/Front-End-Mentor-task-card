@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Optional: Mengatur font default Tailwind */
+  @layer base {
+    body {
+      font-family: 'Figtree-ExtraBold', sans-serif;
+    }
+  }
+  
