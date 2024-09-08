@@ -32,16 +32,16 @@ const App = () => {
             </p>
           </div>
         </div>
-        <div className="flex ">
-          <div className="justify-center items-center">
+        <div className="flex mt-4">
+          <div className="justify-center items-center content-center mr-2">
             <img
               src={avatar}
               alt="avatar"
-              className="w-[32px] h-[32px] mt-[24px] rounded-full"
+              className="w-[32px] h-[32px] rounded-full"
             />
           </div>
-          <div className="justify-center items-center">
-            <h1 className="text-gray-950 text-start font-sans font-bold text-[14px]">
+          <div className="justify-center text-center items-center content-center">
+            <h1 className="text-gray-950  font-sans font-bold text-[14px]">
               Greg Hooper
             </h1>
           </div>
