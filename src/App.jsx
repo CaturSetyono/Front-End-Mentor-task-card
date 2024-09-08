@@ -22,7 +22,7 @@ const App = () => {
           <div className="text-gray-950 text-start  font-sans text-[14px]">
             <h1>Published 21 Dec 2023</h1>
           </div>
-          <div className="mt-2 text-yellow-300 text-start font-sans font-bold text-[24px]">
+          <div className="mt-2 text-gray-950 hover:text-yellow-300 text-start font-sans font-bold text-[24px]">
             <h1>HTML & CSS foundations</h1>
           </div>
           <div className="mt-2 text-gray-500 font-sans text-start ">
